@@ -80,7 +80,7 @@ function deleteItem(e) {
     displayAlert('item romoved', 'danger');
     setBackToDefault();
     // remove from local storage
-    // removeFromLocalStorage(id);
+    removeFromLocalStorage(id);
 }
 // edit function
 function editItem(e) {
